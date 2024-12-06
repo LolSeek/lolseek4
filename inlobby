@@ -64,7 +64,7 @@ local rocketLauncher = MainTab:CreateButton({
    end,
 })
 
-local SeekGun = MainTab:CreateButton({
+local SprialBottle = MainTab:CreateButton({
    Name = "Bottle of spriallight",
    Callback = function()
    loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/8b05c837bea9effac2554340465b4be1/raw/3f3be0ee72e7f153db39a16a40fa63dce6cde72d/SpiralBottle'))()
