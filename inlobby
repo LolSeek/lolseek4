@@ -99,7 +99,7 @@ local GlitchScanner = MainTab:CreateButton({
    end,
 })
 
-local WalkSpeed = Tab:CreateSlider({
+local WalkSpeed = MainTab:CreateSlider({
    Name = "Walkspeed",
    Range = {0, 100},
    Increment = 10,
