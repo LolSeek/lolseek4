@@ -110,3 +110,12 @@ local WalkSpeed = MainTab:CreateSlider({
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
    end,
 })
+
+local ESPTab = Window:CreateTab("ESP", 4483362458) -- Title, Image
+
+local PlayerESP = ESPTab:CreateButton({
+   Name = "Player ESP",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LolSeek/script_ingame/refs/heads/main/PlayerESP"))()
+   end,
+})
